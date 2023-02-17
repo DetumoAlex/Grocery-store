@@ -4,7 +4,7 @@
 
  :root{
     --orange:#ff7800 ;
-    --red:#d61010;
+    --red:#937DC2;
     --black:#130f40;
     --light-color:#888;
     --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
@@ -33,7 +33,7 @@ html{
 }
 
 body{
-    background: #eee;
+    background: #D3CEDF;
 }
 
 section{
@@ -78,12 +78,12 @@ section{
 .header{
     position: fixed;
     top: 0; left: 0; right: 0;
-    z-index: 1000;
+    z-index: 100;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 2rem 9%;
-    background: #fff;
+    background: #937DC2;
     box-shadow: var(--box-shadow);
 }
 
@@ -108,11 +108,10 @@ section{
 }
 
 .header .icons div{
-    height: 4.5rem;
+    height: 1.5rem;
     width: 4.5rem;
     line-height: 4.5rem;
     border-radius: .5rem;
-    background: #eee;
     color: var(--black);
     font-size: 2rem;
     margin-left: .3rem;
@@ -120,8 +119,7 @@ section{
 }
 
 .header .icons div:hover{
-    background: var(--orange);
-    color: #fff;
+    color: #CB1C8D;
 }
 
 #menu-btn{
@@ -283,7 +281,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(../image/banner-4.jpg) no-repeat;
+    background: url(/image/cloth.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     padding-top: 17rem;
@@ -628,7 +626,7 @@ section{
         width: 30rem;
         box-shadow: var(--box-shadow);
         border-radius: .5rem;
-        background: #fff;
+        background: rgb(255, 136, 17);
     }
 
     .header .navbar.active{
